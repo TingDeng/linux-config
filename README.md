@@ -40,9 +40,9 @@ Configuration & Softwares:
 	 
 3. change SSH port and set up firewall
 
-    a. sudo nano /etc/ssh/sshd_config and then change Port 22 to Port 2200 
-    
-	b.sudo ufw default deny incoming
+    a.    sudo nano /etc/ssh/sshd_config and then change Port 22 to Port 2200 
+  
+    b.    sudo ufw default deny incoming
 	
           sudo ufw default allow outgoing
       
@@ -60,12 +60,12 @@ Configuration & Softwares:
 
 6. Install the below software
 
-    a. Install Apache:sudo apt-get install apache2
+    a. Install Apache:
+       sudo apt-get install apache2
     
     b. Install the libapache2-mod-wsgi package:sudo apt-get install libapache2-mod-wsgi
 	
-    c.sudo apt-get install postgresql postgresql-contrib
-	d.Others:
+    c. sudo apt-get install postgresql postgresql-contrib and Others:
 	
       sudo apt-get install python-psycopg2 python-flask
       
@@ -123,7 +123,7 @@ Configuration & Softwares:
     
 	Edit the following lines:
 	
-	<VirtualHost *:xx>
+   <VirtualHost *:xx>
 	
         ServerName 54.236.xx.xxx
 	
@@ -191,9 +191,9 @@ Configuration & Softwares:
     
 14. Make sure all packages are updated before install softwares and configuration:
 
-    a.sudo apt-get update
+    a. sudo apt-get update
     
-    b.sudo apt-get upgrade
+    b. sudo apt-get upgrade
     
     
 15. sudo service apache2 restart everytime you make configuration changes
