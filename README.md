@@ -1,5 +1,7 @@
 Project Description:
+
 This is about how to use  Amazon Lightsail as Linux server to host an application, 
+
 In this case, the application is called "itemcatalog_app". 
 
 The IP address, SSH port and url info:
